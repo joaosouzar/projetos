@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"uni" ;
+    src: url(font/Space_Mono/SpaceMono-Regular.ttf) format("truetype");
+
+}
+@font-face {
+    font-family:"mao" ;
+    src: url(font/Permanent_Marker/PermanentMarker-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "android" ;
+    src: url(font/Sankofa_Display/SankofaDisplay-Regular.ttf) format("truetype");
+}
+/**
+#80B2F2
+#5A69BF
+#303A73
+#181E40
+#010936
+#0D0D0D
+**/
+*{
+    margin: auto;
+}
+body{
+    max-width: 900px;
+    min-width: 320px;
+   background-color: #181E40;
+}
+header{
+    
+    margin: 20px;
+    background-image: linear-gradient(to top, #08B2F2, #5A69BF, #303A73, #181E40, #303A73, #5A69BF, #08B2F2);
+    border-radius: 20px;
+    min-height: 150px;
+    
+}
+
+header h1{
+    padding-top: 2.5%;    
+    text-align: center;
+    color: #08B2F2;
+    font-size: 70px;
+    font-family: "uni";
+}
+
+nav{
+    font-family: "uni";
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #010936;
+}
+a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+    background-color: #d8dae481;
+    
+    
+}
+
+
+main{
+    background-color: #08B2F2;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+img{
+    width: 100%;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-family: "uni";
+    text-align: justify ;
+}
+
+
+
+.foto{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.t2{
+    color: #010936;
+    font-size:35px;
+    font-family: "uni";
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+article{
+    
+    padding-bottom: 40px;
+    
+}
+article > p{
+    text-align:justify;
+    width: 275px;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.2em;
+    display: inline-block;
+}
+article img{
+    width: 370px;
+    height: 370px;
+    margin: auto;
+}
+aside{
+    background-color: #303A73;
+    border-radius: 20px;
+    margin: 10px;
+}
+aside h1{
+    font-family: "mao";
+    font-size: 1.5em;
+    background-color:#5A69BF;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+}
+li{
+    font-family: "mao";
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
